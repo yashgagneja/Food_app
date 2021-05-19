@@ -11,7 +11,7 @@ const CreatePriscriptionScreen = () => {
   const [carbohydrates,setCarbohydrates] = useState();
   const [fats,setFats] = useState();
   const [calories,setCalories] = useState();
-  const [isadmin,setAdmin] = useState();
+  // const [isadmin,setAdmin] = useState();
 //   const dispatch = useDispatch();
 //   const { success } = appointmentCompleted;
 
@@ -68,6 +68,14 @@ const CreatePriscriptionScreen = () => {
   document.getElementById("rambo2").style.display = "none";
   // }
 }
+  //  function random1(this.id){
+        function handlechange(){
+
+        }
+        function handlesubmit(e){
+//console.log(e.target.value);
+        }
+   
   return (
     <div className="yash2">
     <div className="jmd">
@@ -75,7 +83,12 @@ const CreatePriscriptionScreen = () => {
     <h1 className="py-5">Conti As</h1>
     <button className="btn btn-dark" onClick={her}>Admin</button> <t></t><t></t><t></t>
 <button className="btn btn-dark" onClick={her2}>User</button>
+  
 </div>
+      <form className="d-flex justify-content-center" onSubmit={handlesubmit}>
+      <input type="text" placeholder="Search for a dish" className="rams1" onChange={handlechange}></input>
+      <button className="btn btn-dark">Search</button>
+      </form>
        <h1 className="text-center py-3" id="yash1">Enjoy a Dish</h1> 
       <div className="row shadow-lg p-3 mb-5 bg-black rounded" id="newdish">
       
