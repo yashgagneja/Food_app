@@ -1,38 +1,87 @@
 .App {
   text-align: center;
 }
+.jumbotron{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  padding: 10px 0;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.jumbotron2{
+  /* background-color: white; */
+  padding-bottom: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.display-1{
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
-
-.App-link {
-  color: #61dafb;
+.form-control{
+  height: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jmd{
+  width: 70%;
+  margin:auto;
+}
+.img1{
+  height:300px;
+  border-radius: 30px;
+  margin: 10px 0;
+  margin-top: 25px;
+}
+.img1:hover{
+   transition: 0.5s;
+   transform:scaleX(-1);
+   size: 220%;
+   /* transform:scale(1.2); */
+}
+.jmd3{
+  font-weight: 600;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.line1{
+  background-color: #f1828d;
+  color: white;
+  /* width: 100%; */
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.x1{
+  border-style: outset;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 10px 10px;
+  border-color: lightcoral;
+  margin-bottom: 20px ;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.yash2 {
+   /* animation:slide 3s ease-in-out infinite alternate; 
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  /* opacity:.5; */
+  /* position:fixed; */
+  /* right:-50%;
+  top:0;
+  z-index:-1;  */
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif
+ 
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
