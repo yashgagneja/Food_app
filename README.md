@@ -1,6 +1,5 @@
- Live Preview
+ Live Preview  - https://yashgagneja.github.io/Food_app/
   
-    https://yashgagneja.github.io/Food_app/
     
     
 # Getting Started with Create React App
