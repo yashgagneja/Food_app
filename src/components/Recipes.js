@@ -80,7 +80,7 @@ const CreatePriscriptionScreen = () => {
     <div className="yash2">
     <div className="jmd">
     <div className="jumbotron2">
-    <h1 className="py-5">Conti As</h1>
+    <h1 className="py-5">Continue As</h1>
     <button className="btn btn-dark" onClick={her}>Admin</button> <t></t><t></t><t></t>
 <button className="btn btn-dark" onClick={her2}>User</button>
   
