@@ -1,7 +1,15 @@
  
  Live Preview  - https://yashgagneja.github.io/Food_app/
  
+   #  Page Preview for admin
+ 
+ 
+ ![](src/images/git1.JPG)
+ 
+  # Page Preview for User
   
+  
+  ![](src/images/git2.JPG)
                 
        
         
